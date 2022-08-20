@@ -4,5 +4,100 @@ html {
 
 body {
     min-height: 100%;
-    background-color: #f0f0f0;
+    background-image: url(../images/background.jpg);
+    background-size: 1600px 1000px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+
+#loading {
+    display: flex;
+    justify-content:center;
+    margin-top: 200px;
+}
+
+
+.searchContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+}
+
+.searchContainer button {
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #0075BE;
+    color: white;
+    font-size: 18px
+}
+
+.searchContainer button:hover {
+    cursor:pointer;
+    background-color: #0A285F
+}
+
+#searchBar {
+    height: 30px;
+    width: 200px;
+    border-radius:10px;
+    border: 1px solid;
+    padding-left: 10px;
+}
+
+.wrapper {
+    display:flex;
+    justify-content:center;
+}
+
+.displayContainer {
+    margin-top: 50px;
+    width:70%;
+    background-color: white;
+    border-radius:30px;
+}
+
+.info {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #f3f6f4;
+    padding-top: 15px;
+}
+.info p {
+    border-radius:30px;
+    padding: 8px 20px 8px 20px;
+    font-size: 16px;
+    color: white;
+    margin-right: 20px;
+}
+.info h4 {
+    margin-left: 20px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+.about h1{
+    font-size: 25px;
+}
+
+.about img {
+    height: 250px;
+}
+
+.profile {
+    width: 50%;
+}
+
+.profile p {
+    margin: 10px 1px 1px 1px;
 }
