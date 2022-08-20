@@ -8,15 +8,16 @@ import './assets/css/App.css'
 
 function App() {
   return (
-		<div>
-      <Nav />
+	<div>
+      <Nav /> {/* Nav component */}
 
-			<Routes>
-				<Route path="/" element={<HomePage />} />
-        <Route path="*" element={<NotFound />} />
-			</Routes>
+		{/* Routes */}
+		<Routes>
+			<Route path="/" element={<HomePage />} />
+			<Route path="*" element={<NotFound />} /> {/* if anything is typed in the url that does not exists, show user notfound page. Can be redirected to HomePage when clicked on Pokedex*/}
+		</Routes>
 
-		</div>
+	</div>
   )
 }
 

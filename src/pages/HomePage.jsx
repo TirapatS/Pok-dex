@@ -3,6 +3,7 @@ import PokeAPI from "../services/PokeAPI"
 import '../assets/css/App.css'
 import ProgressBar from 'react-bootstrap/ProgressBar'
 
+/* Color of each pokemon type */
 const typeColor = {
     normal: '#A8A77A',
 	fire: '#EE8130',
@@ -26,14 +27,15 @@ const typeColor = {
 
 
 function HomePage() {
-  const [pokemonName, setPokemonName] = useState('') /* get user input */
-  const [pokemonData, setPokemonData] = useState({}) /*  get pokeome data*/
-  const [currentPokemon, setCurrentPokemon] = useState(false) /* display pokemon if pokemonData is true*/
+  const [pokemonName, setPokemonName] = useState('') /* store user input */
+  const [pokemonData, setPokemonData] = useState({}) /*  store pokemon data*/
+  const [currentPokemon, setCurrentPokemon] = useState(false) /* display pokemon if pokemonData exists*/
 
   /* make first letter of the string capitalized */
   const capitalizeFirst = str => {
     return str.charAt(0).toUpperCase() + str.slice(1);
   };
+  
   /* User can also press Enter to Search */
   const handleKeyPress = (event) => {
     if(event.key === 'Enter') {

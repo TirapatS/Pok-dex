@@ -1,8 +1,8 @@
-
+import '../assets/css/App.css'
 
 function NotFound() {
   return (
-    <div>NotFound</div>
+    <h2 className="notFound">This page does not exist</h2>
   )
 }
 
