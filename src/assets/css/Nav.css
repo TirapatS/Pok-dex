@@ -1,0 +1,24 @@
+#nav {
+    display: flex;
+    justify-content: center;
+}
+
+#titleContainer {
+    background-color: #ee1515;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius: 60px;
+    width: 35%;
+}
+
+#title {
+    color:white;
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+#NavLink {
+    text-decoration: none;
+}

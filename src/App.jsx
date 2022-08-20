@@ -1,9 +1,14 @@
+import {Routes, Route} from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import NotFound from './pages/NotFound'
+import Nav from './components/Nav'
+
+import './assets/css/App.css'
 
 function App() {
   return (
 		<div>
+      <Nav />
 
 			<Routes>
 				<Route path="/" element={<HomePage />} />

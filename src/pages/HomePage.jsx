@@ -1,8 +1,8 @@
-
+import PokeList from '../components/PokeList'
 
 function HomePage() {
   return (
-    <div>HomePage</div>
+    <div>hello</div>
   )
 }
 
