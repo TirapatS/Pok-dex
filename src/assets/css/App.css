@@ -102,7 +102,7 @@ body {
     margin: 10px 1px 1px 1px;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
     .about img {
         height: 120px
     }
