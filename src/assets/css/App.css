@@ -101,3 +101,17 @@ body {
 .profile p {
     margin: 10px 1px 1px 1px;
 }
+
+@media (min-width: 375px) {
+    .about img {
+        height: 120px
+    }
+
+    .about p{
+        font-size: 14px;
+    }
+
+    .displayPokemon {
+        width: 100%;
+    }
+}
